@@ -1,0 +1,384 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.nav{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 0;
+}
+.nav-links ul{
+    display: flex;
+    gap: 14px;
+}
+.nav-links ul li{
+    list-style-type: none;
+}
+.nav-links a{
+    color: #000;
+    text-transform: uppercase;
+}
+.nav-links a:hover{
+    color: blue;
+}
+.read{
+    background-color:#0191F0;
+    padding: 5px 9px;
+    border-radius: 12px;
+}
+.nav-links a{
+    text-decoration: none;
+    font-size: 1rem;
+}
+.read a{
+    font-size: 1rem;
+    color: #fff;
+
+}
+.btn{
+    /* padding: 1%; */
+    border: none;
+    background-color: green;
+    color: #fff;
+    border-radius: 7px;
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+}
+.section-1{
+    background-color: #e2e2e2;
+}
+.section-1-cards{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.section1-left{
+    width: 50%;
+}
+.section-1-right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 2%;
+}
+.section-1-right span{
+    color: blue;
+    font-size: 1.8rem;
+}
+.section-1-right h1{
+    font-size: 2.4rem;
+}
+.section-1-right p{
+    font-size: 1.3rem;
+    padding: 2% 0;
+}
+.sec-1-btn button{
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    font-size: 1.3rem;
+    background-color: #0191F0;
+    border-radius: 12px;
+}
+.section-2-right{
+    width: 60%;
+    padding: 3%;
+}
+.section-2-right img{
+    height: 100%;
+    width: 100%;
+}
+.section-2-left{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.section-2-left span{
+    color: blue;
+    font-size: 1.7rem;
+}
+.section-2-left h1{
+    font-size: 3rem;
+}
+.section-2-left p{
+    font-size: 1.9rem;
+    color:rgba(0, 0, 0, 0.3);
+    margin: 2% 0;
+}
+.section-3{
+    background-color: #e2e2e2;
+}
+.sec-3{
+    width: 70%;
+    margin: auto;
+    padding: 5% 0;
+}
+.sec-3-top{
+    width: 50%;
+    text-align: center;
+    margin: 2% auto;
+}
+.sec-3-top h1{
+    font-size: 2rem;
+}
+.sec-3-top>p{
+    font-size: 1.7rem;
+}
+.sec-3-cards{
+    display: flex;
+    justify-content: space-between;
+}
+.sec-3-card{
+    width: 48%;
+    border-radius: 12px;
+    box-shadow: 0 0 5px #000;
+    background-color: #fff;
+    padding: 2%;
+}
+.sec-3-card-top{
+    display: flex;
+    padding-bottom: 4%;
+    border-bottom: 1px solid #000;
+}
+.sec-3-img{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec-3-img img{
+    height:50px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.sec-3-info{
+    width: 90%;
+    padding-left: 5%;
+}
+.sec-3-info span{
+    font-weight: bolder;
+}
+.sec-3-info i{
+    background-color: blue;
+    border-radius: 10px;
+    padding: 1%;
+}
+.sec-3-info p{
+    margin-top: 2%;
+}
+.sec-3-bottom{
+    padding-top: 4%;
+    font-size: 1.3rem;
+    color:rgba(0, 0, 0, 0.7);
+}
+
+.section-4-txt{
+    width: 45%;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 3%;
+    color: rgba(0, 0, 0, 0.3)
+}
+.section-4-txt h1{
+    color: #000;
+}
+.section-4-1{
+    padding: 5% 0;
+}
+.pricie{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;    
+}
+.pricing-box{
+    width: 30%;
+    border-radius: 12px;
+    box-shadow: 0 0 5px #000;
+    background-color: #fff;
+    padding: 2%;
+}
+
+  .text-center {
+    background:blue;   
+}
+.btn-demo{
+    color: #e2e2e2;
+
+}
+.sec-4-btn{
+    width: 100%;
+    padding: 12px;
+    border: none;
+    background-color: #0191F0;
+    color: #fff;
+}
+.pricing-box li{
+    list-style-type: none;
+    color: #A6ABCF;
+}
+.pricing-box li::before{
+    content: '✔️ ';
+}
+.pricing-box ul{
+    margin: 10px 0;
+}
+h3{
+    padding: 20 20 20 0;
+    color: #219AF8;
+}
+h6{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 3rem;
+
+}
+.pricing-box p{
+    color: #709797;
+    padding: 10px;
+}
+small{
+    padding: 10 10 10 0;
+    font-size: medium;
+    color: #8DA2B5;
+
+}
+  .demo{
+    color: #219AF8;
+  }
+
+.blue {
+    background-image: url(images/call-to-action.png);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 350px; 
+}
+
+.blue-inner {
+    text-align: center;
+}
+
+.blue-inner-txt {
+    margin-bottom: 20px;
+}
+.blue-inner-txt h1{
+    color: #e2e2e2;
+    font-size: 3rem;
+}
+.blue-inner-txt p{
+    color: #e2e2e2;
+}
+
+.blue-btn button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(45, 12, 231);
+    border: none;
+    cursor: pointer;
+}
+.footer-inner{
+    width: 80%;
+    margin: auto;
+}
+.footer{
+    width: 100%;
+    background-color: #000;
+    /* height: 250px; */
+  
+}
+.footer-inner{
+    display: flex;
+    flex-direction: row;
+    color: #e2e2e2;
+    width: 80%;
+    
+}
+.footer1{
+    width: 40%;
+    padding: 50px;
+    
+}
+.footer2{
+    width: 40%;
+    padding: 50px;
+    
+}
+.footer3{
+    width: 40%;
+    padding: 50px;
+    
+}
+.footer4{
+    width: 40%;
+    padding: 50px;
+    
+}
+.footer-inner li{
+    padding: 5px;
+    list-style: none;
+}
+
+.footer-inner ul{
+    padding: 10px;
+    color: #AAB3BD;
+}
+
+.footer li{
+    color: rgba(255, 255, 255, 0.4);
+}
+.footer li:hover{
+    cursor: pointer;
+    color: blue;
+}
+
+.footer4 p{
+    padding-bottom: 12px;
+    color: rgba(255, 255, 255, 0.4);
+}
+.footer4 a{
+    color: blue;
+    text-decoration: none;
+}
+b{
+    padding-bottom: 10px;
+    display: inline-block;
+}
+.last{
+    width: 80%;
+    margin: auto;
+    border-top: 1px solid  rgba(255, 255, 255, 0.4);
+    display: flex;
+    justify-content: space-between;
+    padding: 4% 0;
+    color: rgba(255, 255, 255, 0.4);
+}
+.last-icons{
+    display: flex;
+    gap: 15px;
+    font-size: 1.3rem;
+}
+.last-icons i:hover{
+    color: blue;
+}
+.last-text p:hover{
+    color:lightgoldenrodyellow;
+}
+.last-text span{
+    color: #219AF8;
+}
+.last-text span:hover{
+    color: rgb(202, 247, 5);
+}
